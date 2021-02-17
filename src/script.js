@@ -26,16 +26,23 @@ function mainAni(){
 
 window.sr = new ScrollReveal();
 
-sr.reveal('.animate-left',{
+sr.reveal('.ani-le',{
     origin: 'left',
-    duration: 1000,
+    duration: 700,
     distance: '25rem',
     delay: 500
 });
 
-sr.reveal('.animate-right',{
-    origin: 'left',
-    duration: 1000,
+sr.reveal('.ani-ri',{
+    origin: 'right',
+    duration: 700,
     distance: '25rem',
-    delay: 1000
-});  
+    delay: 500
+});
+
+sr.reveal('.ani-bot',{
+    origin: 'bottom',
+    duration: 700,
+    distance: '25rem',
+    delay: 500
+});
