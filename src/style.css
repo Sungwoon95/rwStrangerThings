@@ -1081,7 +1081,6 @@ iframe {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding: 1rem;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin-bottom: 0;
