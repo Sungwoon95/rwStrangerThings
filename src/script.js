@@ -46,3 +46,4 @@ sr.reveal('.ani-bot',{
     distance: '25rem',
     delay: 500
 });
+
