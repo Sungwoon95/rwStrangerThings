@@ -1,564 +1,676 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel = "preconnect"href = "https://fonts.gstatic.com">
-    <link href = "https://fonts.googleapis.com/css2? family = Noto + Sans + KR : wght @ 100; 300; 400; 500; 700; 900 및 display = swap "rel ="stylesheet ">
-    <link rel="stylesheet" href="src/all.css">
-    <link rel="stylesheet" href="src/style.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
-    
-</head>
-<body>
-    <header>
-        <div class="container">
-            <nav class="nav">
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                    <i class="fas fa-times"></i>
-                </div>
-                <h1 class="logos">
-                    <a href="index.html" title="기묘한 이야기 로고" class="logo"><img src="img/header.png" alt="로고"></a>
-                </h1>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.html" title="홈으로 이동" class="nav-link">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" title="개요페이지 이동" class="nav-link">Overview</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#episode" title="에피소드페이지 이동" class="nav-link">Episode</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" title="음악페이지 이동" class="nav-link">music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" title="뉴스페이지 이동" class="nav-link">news</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" title="굿즈페이지 이동" class="nav-link">goods</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" title="로그인페이지 이동" class="nav-link">login</a>
-                    </li>
-                </ul>
-                <ul class="pc-list">
-                    <li class="pc-list-item">
-                        <a href="#" title="홈으로 이동">
-                            Home
-                        </a>
-                    </li>
-                    <li class="pc-list-item">
-                        <a href="#" title="개요페이지 이동">
-                            Overview
-                        </a>
-                    </li>
-                    <li class="pc-list-item">
-                        <a href="#episode" title="에피소드페이지 이동">
-                            Episode
-                        </a>
-                    </li>
-                    <li class="pc-list-item">
-                        <a href="#" title="음악페이지 이동">
-                            Music
-                        </a>
-                    </li>
-                    <li class="pc-list-item">
-                        <a href="#" title="뉴스페이지 이동">
-                            News
-                        </a>
-                    </li>
-                    <li class="pc-list-item">
-                        <a href="#" title="굿즈페이지 이동">
-                            Goods
-                        </a>
-                    </li>
-                    <li class="pc-list-item">
-                        <a href="#" title="로그인페이지 이동">
-                            Login
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- end head -->
-    <section class="main">
-        <div class="container">
-            <h2 class="sub-head">
-                <span class="first-letter">S</span>TRANGER</h2>
-            <h3 class="main-head">THINGS</h3>
-            <h4 class="kor-head">기묘한 이야기</h4>
-            <div class="head-descript">
-                <div class="separate">
-                    <div class="line line-left"></div>
-                    <div class="hive"><i class="fab fa-hive"></i></div>
-                    <div class="line line-right"></div>
-                </div>
-                <div class="season">
-                    <h5>Season 4 Soon!</h5>
-                    <a href="#" class="btn cta-btn">show trailer</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end main -->
-    <section class="contents">
-        <div class="container">
-            <div class="season-overview">
-                <div class="season-descript padding-right">
-                    <div class="season-head">
-                        <h2 class="sub-head">
-                            <span class="first-letter">P</span>revious</h2>
-                        <h3 class="main-head">이전 줄거리</h3>
-                    </div>
-                    <p>1985년, 인디애나주 호킨스. 여름이 후끈 달아오른다. 방학이 시작되고, 동네에 새 쇼핑몰이 개장했다. 호킨스 아이들은 성인이 되는 문턱에 서 있다. 풋사랑이 싹트고 친구들 사이의 우정은 꼬이기 시작한다. 이제 아이들은 우정도 지키면서 성장할 방법을 찾아야만 한다</p>
-                    <a href="#" title="바로보기 버튼" class="btn body-btn">Watching Now</a>
-                </div>
-            </div>
-            <div class="season3-view" id="episode">
-                <h3 class="season-title">
-                    시즌3 다시보기
-                </h3>
-                <div class="epi ep1 ani-le">
-                    <a href="#" title="에피소드1 다시보기">
-                        <div class="epi-img">
-                            <img src="./img/season3_1.png" alt="에피소드1 이미지">
-                        </div>
-                        <span class='minute'>56:18</span>
-                    </a>
-                    <a href="#" title="에피소드1 다시보기">
-                        <div class="epi-text">
-                            <p class="epi-tit">Ep1 무전</p>
-                            <p class="epi-descript">
-                                호킨스의 여름, 새로운 시작과 로맨스의 계절. 하지만 뭔가 잘못돼가고 있다. 문득 사악한 기운을 느끼는 윌. 그리고 아무도 없는 어둠 속에서 기이한 바람이 불어온다.
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="epi ep2 ani-ri">
-                    <a href="#" title="에피소드2 다시보기">
-                        <div class="epi-img">
-                            <img src="./img/season3_2.png" alt="에피소드2 이미지">
-                        </div>
-                        <span class='minute'>57:24</span>
-                    </a>
-                    <a href="#" title="에피소드2 다시보기">
-                        <div class="epi-text">
-                            <p class="epi-tit">Ep2 암호</p>
-                            <p class="epi-descript">
-                                더스틴이 포착한 러시아 통신, 거기엔 어떤 메시지가 숨어있을까. 직접 전화 제보를 확인하러 나선 낸시와 조나단. 빌리는 이상한 환영과 알 수 없는 증상에 시달린다.                        </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="epi ep3 ani-le">
-                    <a href="#" title="에피소드3 다시보기">
-                        <div class="epi-img">
-                            <img src="./img/season3_3.png" alt="에피소드3 이미지">
-                        </div>
-                        <span class='minute'>55:11</span>
-                    </a>
-                    <a href="#" title="에피소드3 다시보기">
-                        <div class="epi-text">
-                            <p class="epi-tit">Ep3 헤더에게 생긴 일</p>
-                            <p class="epi-descript">
-                                우연히 빌리를 엿본 일레븐은 그에게서 뭔가 끔찍한 존재를 감지한다. 쇼핑몰에 잠복해 스파이 노릇을 하는 더스틴과 스티브. 조이스는 호퍼를 설득해 연구소를 조사한다.                    
-                        </div>
-                    </a>
-                </div>
-                <div class="epi ep4 ani-ri">
-                    <a href="#" title="에피소드4 다시보기">
-                        <div class="epi-img">
-                            <img src="./img/season3_4.png" alt="에피소드4 이미지">
-                        </div>
-                        <span class='minute'>58:47</span>
-                    </a>
-                    <a href="#" title="에피소드4 다시보기">
-                        <div class="epi-text">
-                            <p class="epi-tit">Ep4 추적</p>
-                            <p class="epi-descript">
-                                일레븐은 분명 문을 닫았다. 하지만 마인드 플레이어는 여전히 여기에 있다. 그의 새로운 숙주는 누구일까. 스티브와 로빈, 더스틴은 조그만 조력자를 끌어들이기로 한다.                        </p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="price">
-                <p>30일간 무료로 이용해 보세요.</p>
-                <a href="#" title="30일간 무료이용">지금 이용하기</a>
-            </div>
-        </div>
-    </section>
-    <!-- end contents -->
-    <section class="actors">
-        <div class="container">
-            <div class="actor-info">
-                <div class="season-head">
-                    <h2 class="sub-head">
-                        <span class="first-letter">A</span>ctors</h2>
-                    <h3 class="main-head">주연 배우</h3>
-                </div>
-                <div class="actor-grid animate-right">
-                    <div class="info-3d">
-                        <div class="front flip">
-                            <img src="./img/actorinfo1.png" alt="배우 이미지">
-                            <div class="back flip">
-                                <h4>Miley Bobby Brown</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed necessitatibus architecto quos non odio deserunt eius assumenda?</p>
-                                <div>
-                                    <i class="fab fa-youtube-square"></i>
-                                    <i class="fab fa-instagram-square"></i>
-                                    <i class="fab fa-twitter-square"></i>
-                                    <i class="fab fa-facebook-square"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-3d">
-                        <div class="front flip">
-                            <img src="./img/actorinfo2.png" alt="배우 이미지">
-                            <div class="back flip">
-                                <h4>Finn Wolfhard</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed necessitatibus architecto quos non odio deserunt eius assumenda?</p>
-                                <div>
-                                    <i class="fab fa-youtube-square"></i>
-                                    <i class="fab fa-instagram-square"></i>
-                                    <i class="fab fa-twitter-square"></i>
-                                    <i class="fab fa-facebook-square"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-3d">
-                        <div class="front flip">
-                            <img src="./img/actorinfo3.png" alt="배우 이미지">
-                            <div class="back flip">
-                                <h4>Miley Bobby Brown</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed necessitatibus architecto quos non odio deserunt eius assumenda?</p>
-                                <div>
-                                    <i class="fab fa-youtube-square"></i>
-                                    <i class="fab fa-instagram-square"></i>
-                                    <i class="fab fa-twitter-square"></i>
-                                    <i class="fab fa-facebook-square"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-3d">
-                        <div class="front flip">
-                            <img src="./img/actorinfo4.png" alt="배우 이미지">
-                            <div class="back flip">
-                                <h4>Miley Bobby Brown</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed necessitatibus architecto quos non odio deserunt eius assumenda?</p>
-                                <div>
-                                    <i class="fab fa-youtube-square"></i>
-                                    <i class="fab fa-instagram-square"></i>
-                                    <i class="fab fa-twitter-square"></i>
-                                    <i class="fab fa-facebook-square"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-3d">
-                        <div class="front flip">
-                            <img src="./img/actorinfo5.png" alt="배우 이미지">
-                            <div class="back flip">
-                                <h4>Miley Bobby Brown</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed necessitatibus architecto quos non odio deserunt eius assumenda?</p>
-                                <div>
-                                    <i class="fab fa-youtube-square"></i>
-                                    <i class="fab fa-instagram-square"></i>
-                                    <i class="fab fa-twitter-square"></i>
-                                    <i class="fab fa-facebook-square"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-3d">
-                        <div class="front flip">
-                            <img src="./img/actorinfo1.png" alt="배우 이미지">
-                            <div class="back flip">
-                                <h4>Miley Bobby Brown</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed necessitatibus architecto quos non odio deserunt eius assumenda?</p>
-                                <div>
-                                    <i class="fab fa-youtube-square"></i>
-                                    <i class="fab fa-instagram-square"></i>
-                                    <i class="fab fa-twitter-square"></i>
-                                    <i class="fab fa-facebook-square"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="produce">
-                <h3 class="producing-title">제작진 및 출연진</h3>
-                <p class="producing">
-                    <span class="pro-title">제작사</span> 
-                    21 laps ENT.
-                </p>
-                <p class="producing">
-                    <span class="pro-title">제작</span> 
-                    더퍼 형제, 숀 레비, 덴 코핸, 신디 홀랜드, 브라이언 라이트, 맷 터넬, 칼 가두색, 이안 패터슨
-                </p>
-                <p class="producing">
-                    <span class="pro-title">연출</span>
-                    더퍼 형제, 숀 레비, 앤드류 스탠톤, 유타 브리즈위츠, 레베카 토마스
-                </p>
-                <p class="producing">
-                    <span class="pro-title">극본</span> 
-                    더퍼 형제, 폴 디처, 제시 닉슨 로페즈, 케이트 트레프리, 저스틴 도블, 커티스 그윈, 제시카 메클린버그, 앨리슨 텟록, 윌리엄 브리지스                </p>
-                <p class="producing">
-                    <span class="pro-title">음악</span> 
-                    마이클 스테인, 카일 딕손
-                </p>
-                <p class="producing">
-                    <span class="pro-title">출연진</span> 
-                    위노나 라이더, 데이비드 하버, 핀 울프하드, 밀리 바비 브라운, 게이튼 매터래조, 케일럽 맥러플린, 나탈리아 다이어, 찰리 히튼, 카라 부오노, 매튜 모딘, 노아 슈냅, 세이디 싱크, 조 키리                </p>
-            </div>
-        </div>
-    </section>
-    <!-- end atcors -->
-    <section class="news">
-        <div class="container">
-            <div class="actor-info">
-                <div class="season-head">
-                    <h2 class="sub-head">
-                        <span class="first-letter">N</span>ews</h2>
-                    <h3 class="main-head">뉴스</h3>
-                <div class="news-grid">
-                    <div class="news-list main-news">
-                        <a href="#" title="뉴스섹션">
-                            <div class="news-head"><img src="./img/news_1.png" alt="뉴스 이미지"></div>
-                            <div class="news-info">
-                                <h4 class="news-tit">
-                                    'Stranger Things' star Natalia Dyer says media is 'oversexualizing' young cast members                                </h4>
-                                <p class="news-text">
-                                    “I generally feel like, to me, it’s oversexualizing them. I feel protective over the younger kids even though they’re not kids anymore, they’re teens," she said. "They’re all great people and all having to grow up in very crazy circumstances. As a private person, I just feel like, leave people alone – unless you’re talking about their work or what they want to talk about. It’s a very tricky and complex issue."
-The actress called the oversexualization of young actors "a cultural issue," noting that "there must be a bigger concept behind it as to why."
-                                </p>
-                            </div>
-                        </a>    
-                    </div>
-                    <div class="news-list">
-                        <a href="#" title="뉴스섹션">
-                            <div class="news-head"><img src="./img/news_2.png" alt="뉴스 이미지"></div>
-                            <div class="news-info">
-                                <h4 class="news-tit">
-                                    Netflix sued by actor in 'Stranger Things' live show over coronavirus working conditions: report 
-                                </h4>
-                                <p class="news-text">
-                                    According to his lawsuit, Hearl spoke up when he became concerned that rehearsals that were held indoors were posing an exposure risk to the cast. When he was unsatisfied with the response from his bosses, he reportedly filed a complaint with the California Occupational Safety and Health Administration. Soon after the group conducted an investigation of the set, Hearl was terminated. 
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="news-list">
-                        <a href="#" title="뉴스섹션">
-                            <div class="news-head"><img src="./img/news_3.png" alt="뉴스 이미지"></div>
-                            <div class="news-info">
-                                <h4 class="news-tit">
-                                    South Carolina woman donates kidney to stranger after seeing heartfelt plea on car: 'God came to me'                                </h4>
-                                <p class="news-text">The two met for the first time on Thursday, just a day after the operation, with Jones saying Gardy is now part of his family.
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>기묘한 이야기4</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="src/all.css">
+        <link rel="stylesheet" href="src/style.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script
+            src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+        <script
+            src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 
-                                    “It’s a lot knowing that I have her organ in my body,” he told the outlet. “We’re family now. She’s not just a stranger anymore, she’s my aunt.”
-                                    
-                                    “I told him if you start to like wine now, I’m sorry,” she said. “Yes, I’m his aunt now, I’m Aunt Starr.”
-                                </p>
-                            </div>
-                        </a>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
                     </div>
-                    <div class="news-list">
-                        <a href="#" title="뉴스섹션">
-                            <div class="news-head"><img src="./img/news_4.png" alt="뉴스 이미지"></div>
-                            <div class="news-info">
-                                <h4 class="news-tit">
-                                    Netflix drops 'Stranger Things' Season 4 teaser, answers a major cliffhanger 
-                                </h4>
-                                <p class="news-text">
-                                    After defeating Russian operative Grigori in a harrowing fistfight, Hopper, played by David Harbour, damaged a machine that was opening a gate to the infamous Upside Down. Realizing that he couldn’t escape the ensuing blast, Hopper seemingly allows himself to die in an explosion that saved his town. The season ends in Kamchatka, Russia, where there’s mention of an American prisoner. Since then, there have been countless theories about the identity of the American, with most speculating that Hopper somehow survived.
-                                </p>
-                            </div>
-                        </a>
+                    <h1 class="logos">
+                        <a href="index.html" title="기묘한 이야기 로고" class="logo"><img src="img/header.png" alt="로고"></a>
+                    </h1>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" title="홈으로 이동" class="nav-link">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#overview" title="개요페이지 이동" class="nav-link">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#episode" title="에피소드페이지 이동" class="nav-link">Episode</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#actor" title="배우페이지 이동" class="nav-link">actor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#news" title="뉴스페이지 이동" class="nav-link">news</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#music" title="음악페이지 이동" class="nav-link">music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#goods" title="굿즈페이지 이동" class="nav-link">goods</a>
+                        </li>
+                    </ul>
+                    <ul class="pc-list">
+                        <li class="pc-list-item">
+                            <a href="index.html" title="홈으로 이동">
+                                Home
+                            </a>
+                        </li>
+                        <li class="pc-list-item">
+                            <a href="#overview" title="개요페이지 이동">
+                                Overview
+                            </a>
+                        </li>
+                        <li class="pc-list-item">
+                            <a href="#episode" title="에피소드페이지 이동">
+                                Episode
+                            </a>
+                        </li>
+                        <li class="pc-list-item">
+                            <a href="#actor" title="로그인페이지 이동">
+                                Actor
+                            </a>
+                        </li>
+                        <li class="pc-list-item">
+                            <a href="#news" title="뉴스페이지 이동">
+                                News
+                            </a>
+                        </li>
+                        <li class="pc-list-item">
+                            <a href="#music" title="음악페이지 이동">
+                                Music
+                            </a>
+                        </li>
+                        <li class="pc-list-item">
+                            <a href="#goods" title="굿즈페이지 이동">
+                                Goods
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- end head -->
+        <section class="main">
+            <div class="container">
+                <h2 class="sub-head">
+                    <span class="first-letter">S</span>TRANGER</h2>
+                <h3 class="main-head">THINGS</h3>
+                <h4 class="kor-head">기묘한 이야기</h4>
+                <div class="head-descript">
+                    <div class="separate">
+                        <div class="line line-left"></div>
+                        <div class="hive">
+                            <i class="fab fa-hive"></i>
+                        </div>
+                        <div class="line line-right"></div>
                     </div>
-                    <div class="news-list">
-                        <a href="#" title="뉴스섹션">
-                            <div class="news-head"><img src="./img/news_5.png" alt="뉴스 이미지"></div>
-                            <div class="news-info">
-                                <h4 class="news-tit">
-                                    'Game of Thrones' actress Sophie Turner defends 'Stranger Things' stars in fiery Twitter thread
-                                </h4>
-                                <p class="news-text">
-                                    “Damn… seeing fully grown adults wait outside the ‘Stranger Things’ kids’ hotels etc, and then abuse them when they don’t stop for them… Is Super weird A. What adult in their right mind waits for a CHILD outside their hotel and B is then is offended when the CHILD doesn’t stop,” she wrote in a fiery series of tweets. “It doesn’t matter if they are an actor… they are kids first.
-                                </p>
-                            </div>
-                        </a>
+                    <div class="season">
+                        <h5>Season 4 Soon!</h5>
+                        <a href="#" class="btn cta-btn">show trailer</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="music">
-        <div class="container">
-            <div class="actor-info">
-                <div class="season-head">
-                    <h2 class="sub-head">
-                        <span class="first-letter">M</span>usic
-                    </h2>
-                    <h3 class="main-head">
-                        음악
+        </section>
+        <!-- end main -->
+        <section id="overview" class="contents">
+            <div class="container">
+                <div class="season-overview">
+                    <div class="season-descript padding-right">
+                        <div class="season-head">
+                            <h2 class="sub-head">
+                                <span class="first-letter">P</span>revious</h2>
+                            <h3 class="main-head">이전 줄거리</h3>
+                        </div>
+                        <p>1985년, 인디애나주 호킨스. 여름이 후끈 달아오른다. 방학이 시작되고, 동네에 새 쇼핑몰이 개장했다. 호킨스 아이들은 성인이 되는
+                            문턱에 서 있다. 풋사랑이 싹트고 친구들 사이의 우정은 꼬이기 시작한다. 이제 아이들은 우정도 지키면서 성장할 방법을 찾아야만 한다</p>
+                        <a href="#" title="바로보기 버튼" class="btn body-btn">Watching Now</a>
+                    </div>
+                </div>
+                <div class="season3-view" id="episode">
+                    <h3 class="season-title">
+                        시즌3 다시보기
                     </h3>
-            </div>
-            <div class="music-content">
-                <div class="music-name">
-                    <a href="#" title="노래 제목">
-                        <img src="./img/music1.png" alt="노래 이미지">
-                    </a>
-                </div>
-                <div class="music-name">
-                    <a href="#" title="노래 제목">
-                        <img src="./img/music2.png" alt="노래 이미지">
-                    </a>
-                </div>
-                <div class="music-name">
-                    <a href="#" title="노래 제목">
-                        <img src="./img/music3.png" alt="노래 이미지">
-                    </a>
-                </div>
-                <div class="music-name">
-                    <a href="#" title="노래 제목">
-                        <img src="./img/music4.png" alt="노래 이미지">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end music -->
-    <section class="colabo">
-        <div class="container">
-            <div class="actor-info">
-                <div class="season-head">
-                    <h2 class="sub-head">
-                        <span class="first-letter">G</span>oods</h2>
-                    <h3 class="main-head">collaboration</h3>
-                </div>
-            </div>
-            <div class="float ani-scroll-remove">
-                <div class="float-item ani-le">
-                    <a href="#" title="콜라보레이션 상품">
-                        <img class="pc-goods" src="./img/goods1.png" alt="콜라보레이션 상품">
-                        <img class="mob-goods" src="./img/goods1.jpg" alt="콜라보레이션 상품">
-                    </a>
-                </div>
-                <div class="float-item ani-ri">
-                    <a href="#" title="콜라보레이션 상품">
-                        <img src="./img/goods2.png" alt="콜라보레이션 상품">
-                    </a>
-                </div>
-                <div class="float-item ani-bot">
-                    <a href="#" title="콜라보레이션 상품">
-                        <img src="./img/goods3.png" alt="콜라보레이션 상품">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end colabo -->
-    <section class="youtube">
-        <div class="container">
-            <div class="actor-info">
-                <div class="season-head">
-                    <h2 class="sub-head">
-                        <span class="first-letter">Y</span>outube</h2>
-                    <h3 class="main-head">유튜브</h3>
-                <div class="youtube-grid">
-                    <div class="main-colabo news-title">
-                        <div class="news-head"><iframe src="https://www.youtube.com/embed/-35jibKqbEo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="epi ep1 ani-le">
+                        <a href="#" title="에피소드1 다시보기">
+                            <div class="epi-img">
+                                <img src="./img/season3_1.png" alt="에피소드1 이미지">
+                            </div>
+                            <span class='minute'>56:18</span>
+                        </a>
+                        <a href="#" title="에피소드1 다시보기">
+                            <div class="epi-text">
+                                <p class="epi-tit">Ep1 무전</p>
+                                <p class="epi-descript">
+                                    호킨스의 여름, 새로운 시작과 로맨스의 계절. 하지만 뭔가 잘못돼가고 있다. 문득 사악한 기운을 느끼는 윌. 그리고 아무도 없는 어둠 속에서
+                                    기이한 바람이 불어온다.
+                                </p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="news-title">
-                        <div class="news-head"><iframe src="https://www.youtube.com/embed/K-K13wmF8cI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="epi ep2 ani-ri">
+                        <a href="#" title="에피소드2 다시보기">
+                            <div class="epi-img">
+                                <img src="./img/season3_2.png" alt="에피소드2 이미지">
+                            </div>
+                            <span class='minute'>57:24</span>
+                        </a>
+                        <a href="#" title="에피소드2 다시보기">
+                            <div class="epi-text">
+                                <p class="epi-tit">Ep2 암호</p>
+                                <p class="epi-descript">
+                                    더스틴이 포착한 러시아 통신, 거기엔 어떤 메시지가 숨어있을까. 직접 전화 제보를 확인하러 나선 낸시와 조나단. 빌리는 이상한 환영과 알 수
+                                    없는 증상에 시달린다.
+                                </p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="news-title">
-                        <div class="news-head"><iframe src="https://www.youtube.com/embed/7Xcv3s_7XFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="epi ep3 ani-le">
+                        <a href="#" title="에피소드3 다시보기">
+                            <div class="epi-img">
+                                <img src="./img/season3_3.png" alt="에피소드3 이미지">
+                            </div>
+                            <span class='minute'>55:11</span>
+                        </a>
+                        <a href="#" title="에피소드3 다시보기">
+                            <div class="epi-text">
+                                <p class="epi-tit">Ep3 헤더에게 생긴 일</p>
+                                <p class="epi-descript">
+                                    우연히 빌리를 엿본 일레븐은 그에게서 뭔가 끔찍한 존재를 감지한다. 쇼핑몰에 잠복해 스파이 노릇을 하는 더스틴과 스티브. 조이스는 호퍼를 설득해
+                                    연구소를 조사한다.
+                                </div>
+                            </a>
+                        </div>
+                        <div class="epi ep4 ani-ri">
+                            <a href="#" title="에피소드4 다시보기">
+                                <div class="epi-img">
+                                    <img src="./img/season3_4.png" alt="에피소드4 이미지">
+                                </div>
+                                <span class='minute'>58:47</span>
+                            </a>
+                            <a href="#" title="에피소드4 다시보기">
+                                <div class="epi-text">
+                                    <p class="epi-tit">Ep4 추적</p>
+                                    <p class="epi-descript">
+                                        일레븐은 분명 문을 닫았다. 하지만 마인드 플레이어는 여전히 여기에 있다. 그의 새로운 숙주는 누구일까. 스티브와 로빈, 더스틴은 조그만
+                                        조력자를 끌어들이기로 한다.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="news-title">
-                        <div class="news-head"><iframe src="https://www.youtube.com/embed/BWr9od1hdJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    </div>
-                    <div class="news-title">
-                        <div class="news-head"><iframe src="https://www.youtube.com/embed/BWr9od1hdJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="price">
+                        <p>30일간 무료로 이용해 보세요.</p>
+                        <a href="#" title="30일간 무료이용">지금 이용하기</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="f-top">
-            <div class="container f-top-flex">
-                <div class="f-top-left">
-                    <h4>질문이 있으신가요? 문의 전화:  00-308-321-0058</h4>
-                    <p>Copyright 2021. All pictures cannot be copied without permission.</p>
+            </section>
+            <!-- end contents -->
+            <section id="actor" class="actors">
+                <div class="container">
+                    <div class="actor-info">
+                        <div class="season-head">
+                            <h2 class="sub-head">
+                                <span class="first-letter">A</span>ctors</h2>
+                            <h3 class="main-head">주연 배우</h3>
+                        </div>
+                        <div class="actor-grid animate-right">
+                            <div class="info-3d">
+                                <div class="front flip">
+                                    <img src="./img/actorinfo1.png" alt="배우 이미지">
+                                    <div class="back flip">
+                                        <h4>Miley Bobby Brown</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque
+                                            beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed
+                                            necessitatibus architecto quos non odio deserunt eius assumenda?</p>
+                                        <div>
+                                            <i class="fab fa-youtube-square"></i>
+                                            <i class="fab fa-instagram-square"></i>
+                                            <i class="fab fa-twitter-square"></i>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-3d">
+                                <div class="front flip">
+                                    <img src="./img/actorinfo2.png" alt="배우 이미지">
+                                    <div class="back flip">
+                                        <h4>Noah Schnapp</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque
+                                            beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed
+                                            necessitatibus architecto quos non odio deserunt eius assumenda?</p>
+                                        <div>
+                                            <i class="fab fa-youtube-square"></i>
+                                            <i class="fab fa-instagram-square"></i>
+                                            <i class="fab fa-twitter-square"></i>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-3d">
+                                <div class="front flip">
+                                    <img src="./img/actorinfo3.png" alt="배우 이미지">
+                                    <div class="back flip">
+                                        <h4>Finn Wolfhard</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque
+                                            beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed
+                                            necessitatibus architecto quos non odio deserunt eius assumenda?</p>
+                                        <div>
+                                            <i class="fab fa-youtube-square"></i>
+                                            <i class="fab fa-instagram-square"></i>
+                                            <i class="fab fa-twitter-square"></i>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-3d">
+                                <div class="front flip">
+                                    <img src="./img/actorinfo4.png" alt="배우 이미지">
+                                    <div class="back flip">
+                                        <h4>Caleb McLaughlin</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque
+                                            beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed
+                                            necessitatibus architecto quos non odio deserunt eius assumenda?</p>
+                                        <div>
+                                            <i class="fab fa-youtube-square"></i>
+                                            <i class="fab fa-instagram-square"></i>
+                                            <i class="fab fa-twitter-square"></i>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-3d">
+                                <div class="front flip">
+                                    <img src="./img/actorinfo5.png" alt="배우 이미지">
+                                    <div class="back flip">
+                                        <h4>gaten matarazzo</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque
+                                            beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed
+                                            necessitatibus architecto quos non odio deserunt eius assumenda?</p>
+                                        <div>
+                                            <i class="fab fa-youtube-square"></i>
+                                            <i class="fab fa-instagram-square"></i>
+                                            <i class="fab fa-twitter-square"></i>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-3d">
+                                <div class="front flip">
+                                    <img src="./img/actorinfo6.png" alt="배우 이미지">
+                                    <div class="back flip">
+                                        <h4>David Harbour</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit iure eaque
+                                            beatae, ducimus perferendis dolor accusamus ipsam labore saepe aliquam animi sed
+                                            necessitatibus architecto quos non odio deserunt eius assumenda?</p>
+                                        <div>
+                                            <i class="fab fa-youtube-square"></i>
+                                            <i class="fab fa-instagram-square"></i>
+                                            <i class="fab fa-twitter-square"></i>
+                                            <i class="fab fa-facebook-square"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produce">
+                        <h3 class="producing-title">제작진 및 출연진</h3>
+                        <p class="producing">
+                            <span class="pro-title">제작사</span>
+                            21 laps ENT.
+                        </p>
+                        <p class="producing">
+                            <span class="pro-title">제작</span>
+                            더퍼 형제, 숀 레비, 덴 코핸, 신디 홀랜드, 브라이언 라이트, 맷 터넬, 칼 가두색, 이안 패터슨
+                        </p>
+                        <p class="producing">
+                            <span class="pro-title">연출</span>
+                            더퍼 형제, 숀 레비, 앤드류 스탠톤, 유타 브리즈위츠, 레베카 토마스
+                        </p>
+                        <p class="producing">
+                            <span class="pro-title">극본</span>
+                            더퍼 형제, 폴 디처, 제시 닉슨 로페즈, 케이트 트레프리, 저스틴 도블, 커티스 그윈, 제시카 메클린버그, 앨리슨 텟록, 윌리엄 브리지스
+                        </p>
+                        <p class="producing">
+                            <span class="pro-title">음악</span>
+                            마이클 스테인, 카일 딕손
+                        </p>
+                        <p class="producing">
+                            <span class="pro-title">출연진</span>
+                            위노나 라이더, 데이비드 하버, 핀 울프하드, 밀리 바비 브라운, 게이튼 매터래조, 케일럽 맥러플린, 나탈리아 다이어, 찰리 히튼, 카라
+                            부오노, 매튜 모딘, 노아 슈냅, 세이디 싱크, 조 키리
+                        </p>
+                    </div>
                 </div>
-                <div class="f-top-right">
-                    <a href="#" title="snslogo">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" title="snslogo">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" title="snslogo">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="#" title="snslogo">
-                        <i class="fab fa-wordpress"></i>
-                    </a>
-                    <a href="#" title="snslogo">
-                        <i class="fab fa-facebook"></i>
-                    </a>
+            </section>
+            <!-- end atcors -->
+            <section id="news" class="news">
+                <div class="container">
+                    <div class="actor-info">
+                        <div class="season-head">
+                            <h2 class="sub-head">
+                                <span class="first-letter">N</span>ews</h2>
+                            <h3 class="main-head">뉴스</h3>
+                            <div class="news-grid">
+                                <div class="news-list main-news">
+                                    <a href="#" title="뉴스섹션">
+                                        <div class="news-head"><img src="./img/news_1.png" alt="뉴스 이미지"></div>
+                                        <div class="news-info">
+                                            <h4 class="news-tit">
+                                                'Stranger Things' star Natalia Dyer says media is 'oversexualizing' young cast
+                                                members
+                                            </h4>
+                                            <p class="news-text">
+                                                “I generally feel like, to me, it’s oversexualizing them. I feel protective over
+                                                the younger kids even though they’re not kids anymore, they’re teens," she said.
+                                                "They’re all great people and all having to grow up in very crazy circumstances.
+                                                As a private person, I just feel like, leave people alone – unless you’re
+                                                talking about their work or what they want to talk about. It’s a very tricky and
+                                                complex issue." The actress called the oversexualization of young actors "a
+                                                cultural issue," noting that "there must be a bigger concept behind it as to
+                                                why."
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-list">
+                                    <a href="#" title="뉴스섹션">
+                                        <div class="news-head"><img src="./img/news_2.png" alt="뉴스 이미지"></div>
+                                        <div class="news-info">
+                                            <h4 class="news-tit">
+                                                Netflix sued by actor in 'Stranger Things' live show over coronavirus working
+                                                conditions: report
+                                            </h4>
+                                            <p class="news-text">
+                                                According to his lawsuit, Hearl spoke up when he became concerned that
+                                                rehearsals that were held indoors were posing an exposure risk to the cast. When
+                                                he was unsatisfied with the response from his bosses, he reportedly filed a
+                                                complaint with the California Occupational Safety and Health Administration.
+                                                Soon after the group conducted an investigation of the set, Hearl was
+                                                terminated.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-list">
+                                    <a href="#" title="뉴스섹션">
+                                        <div class="news-head"><img src="./img/news_3.png" alt="뉴스 이미지"></div>
+                                        <div class="news-info">
+                                            <h4 class="news-tit">
+                                                South Carolina woman donates kidney to stranger after seeing heartfelt plea on
+                                                car: 'God came to me'
+                                            </h4>
+                                            <p class="news-text">The two met for the first time on Thursday, just a day
+                                                after the operation, with Jones saying Gardy is now part of his family. “It’s a
+                                                lot knowing that I have her organ in my body,” he told the outlet. “We’re family
+                                                now. She’s not just a stranger anymore, she’s my aunt.” “I told him if you start
+                                                to like wine now, I’m sorry,” she said. “Yes, I’m his aunt now, I’m Aunt Starr.”
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-list">
+                                    <a href="#" title="뉴스섹션">
+                                        <div class="news-head"><img src="./img/news_4.png" alt="뉴스 이미지"></div>
+                                        <div class="news-info">
+                                            <h4 class="news-tit">
+                                                Netflix drops 'Stranger Things' Season 4 teaser, answers a major cliffhanger
+                                            </h4>
+                                            <p class="news-text">
+                                                After defeating Russian operative Grigori in a harrowing fistfight, Hopper,
+                                                played by David Harbour, damaged a machine that was opening a gate to the
+                                                infamous Upside Down. Realizing that he couldn’t escape the ensuing blast,
+                                                Hopper seemingly allows himself to die in an explosion that saved his town. The
+                                                season ends in Kamchatka, Russia, where there’s mention of an American prisoner.
+                                                Since then, there have been countless theories about the identity of the
+                                                American, with most speculating that Hopper somehow survived.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="news-list">
+                                    <a href="#" title="뉴스섹션">
+                                        <div class="news-head"><img src="./img/news_5.png" alt="뉴스 이미지"></div>
+                                        <div class="news-info">
+                                            <h4 class="news-tit">
+                                                'Game of Thrones' actress Sophie Turner defends 'Stranger Things' stars in fiery
+                                                Twitter thread
+                                            </h4>
+                                            <p class="news-text">
+                                                “Damn… seeing fully grown adults wait outside the ‘Stranger Things’ kids’ hotels
+                                                etc, and then abuse them when they don’t stop for them… Is Super weird A. What
+                                                adult in their right mind waits for a CHILD outside their hotel and B is then is
+                                                offended when the CHILD doesn’t stop,” she wrote in a fiery series of tweets.
+                                                “It doesn’t matter if they are an actor… they are kids first.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class='f-mid'>
-            <div class="container">
-                <ul class="mid-flex">
-                    <li><a href="#" title="FAQ">자주 묻는 질문</a></li> 
-                    <li><a href="#" title="FAQ">고객 센터</a></li>
-                    <li><a href="#" title="FAQ">계정</a></li>
-                    <li><a href="#" title="FAQ">미디어 센터</a> </li>
-                    <li><a href="#" title="FAQ">투자 정보</a> </li>
-                    <li><a href="#" title="FAQ">입사 정보</a></li>
-                    <li><a href="#" title="FAQ">Netflix 지원</a></li>
-                    <li><a href="#" title="FAQ">디바이스이용</a></li>
-                    <li><a href="#" title="FAQ">약관</a></li>
-                    <li><a href="#" title="FAQ">개인정보</a></li>
-                    <li><a href="#" title="FAQ">쿠키 설정</a></li>
-                    <li><a href="#" title="FAQ">회사 정보</a></li>
-                    <li><a href="#" title="FAQ">문의하기</a></li>
-                    <li><a href="#" title="FAQ">속도 테스트</a></li>
-                    <li><a href="#" title="FAQ">법적 고지</a></li>
-                    <li><a href="#" title="FAQ">Netflix 오리지널</a></li>
-                </ul>
-            </div> 
-        </div>
-        <div class="f-bot">
-            <div class="container">
-                <p>Netflix 대한민국</p>
-                <p>넷플릭스서비시스코리아 유한회사</p>
-                <p>전화번호: 00-308-321-0058</p>
-                <p>대표: 레지널드 숀 톰프슨</p>
-                <p>이메일 주소: korea@netflix.com</p>
-                <p>주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층</p>
-                <p>클라우드 호스팅: Amazon Web Services Inc.</p>
-                <a href="#" title="공정거래위원회 사이트로 이동">공정거래위원회 웹사이트 링크
-                    <i class="fas fa-chevron-right"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
-    <!-- end collabo -->
-    <script src="src/script.js"></script>
-</body>
-</html>
+            </section>
+            <section id="music" class="music">
+                <div class="container">
+                    <div class="actor-info">
+                        <div class="season-head">
+                            <h2 class="sub-head">
+                                <span class="first-letter">M</span>usic
+                            </h2>
+                            <h3 class="main-head">
+                                음악
+                            </h3>
+                        </div>
+                        <div class="music-content">
+                            <div class="music-name">
+                                <a href="#" title="노래 제목">
+                                    <img src="./img/music1.png" alt="노래 이미지">
+                                </a>
+                            </div>
+                            <div class="music-name">
+                                <a href="#" title="노래 제목">
+                                    <img src="./img/music2.png" alt="노래 이미지">
+                                </a>
+                            </div>
+                            <div class="music-name">
+                                <a href="#" title="노래 제목">
+                                    <img src="./img/music3.png" alt="노래 이미지">
+                                </a>
+                            </div>
+                            <div class="music-name">
+                                <a href="#" title="노래 제목">
+                                    <img src="./img/music4.png" alt="노래 이미지">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end music -->
+            <section id="goods" class="colabo">
+                <div class="container">
+                    <div class="actor-info">
+                        <div class="season-head">
+                            <h2 class="sub-head">
+                                <span class="first-letter">G</span>oods</h2>
+                            <h3 class="main-head">collaboration</h3>
+                        </div>
+                    </div>
+                    <div class="float ani-scroll-remove">
+                        <div class="float-item ani-le">
+                            <a href="#" title="콜라보레이션 상품">
+                                <img class="pc-goods" src="./img/goods1.png" alt="콜라보레이션 상품">
+                                <img class="mob-goods" src="./img/goods1.jpg" alt="콜라보레이션 상품">
+                            </a>
+                        </div>
+                        <div class="float-item ani-ri">
+                            <a href="#" title="콜라보레이션 상품">
+                                <img src="./img/goods2.png" alt="콜라보레이션 상품">
+                            </a>
+                        </div>
+                        <div class="float-item ani-bot">
+                            <a href="#" title="콜라보레이션 상품">
+                                <img src="./img/goods3.png" alt="콜라보레이션 상품">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end colabo -->
+            <section class="youtube">
+                <div class="container">
+                    <div class="actor-info">
+                        <div class="season-head">
+                            <h2 class="sub-head">
+                                <span class="first-letter">Y</span>outube</h2>
+                            <h3 class="main-head">유튜브</h3>
+                            <div class="youtube-grid">
+                                <div class="main-colabo news-title">
+                                    <div class="news-head">
+                                        <iframe
+                                            src="https://www.youtube.com/embed/-35jibKqbEo"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                    </div>
+                                </div>
+                                <div class="news-title">
+                                    <div class="news-head">
+                                        <iframe
+                                            src="https://www.youtube.com/embed/K-K13wmF8cI"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                    </div>
+                                </div>
+                                <div class="news-title">
+                                    <div class="news-head">
+                                        <iframe
+                                            src="https://www.youtube.com/embed/7Xcv3s_7XFI"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                    </div>
+                                </div>
+                                <div class="news-title">
+                                    <div class="news-head">
+                                        <iframe
+                                            src="https://www.youtube.com/embed/BWr9od1hdJU"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                    </div>
+                                </div>
+                                <div class="news-title">
+                                    <div class="news-head">
+                                        <iframe
+                                            src="https://www.youtube.com/embed/abd4GaRygTg"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="f-top">
+                    <div class="container f-top-flex">
+                        <div class="f-top-left">
+                            <h4>질문이 있으신가요? 문의 전화: 00-308-321-0058</h4>
+                            <p>Copyright 2021. All pictures cannot be copied without permission.</p>
+                        </div>
+                        <div class="f-top-right">
+                            <a href="#" title="snslogo">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" title="snslogo">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" title="snslogo">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" title="snslogo">
+                                <i class="fab fa-wordpress"></i>
+                            </a>
+                            <a href="#" title="snslogo">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class='f-mid'>
+                    <div class="container">
+                        <ul class="mid-flex">
+                            <li>
+                                <a href="#" title="FAQ">자주 묻는 질문</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">고객 센터</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">계정</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">미디어 센터</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">투자 정보</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">입사 정보</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">Netflix 지원</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">디바이스이용</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">약관</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">개인정보</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">쿠키 설정</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">회사 정보</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">문의하기</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">속도 테스트</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">법적 고지</a>
+                            </li>
+                            <li>
+                                <a href="#" title="FAQ">Netflix 오리지널</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="f-bot">
+                    <div class="container">
+                        <p>Netflix 대한민국</p>
+                        <p>넷플릭스서비시스코리아 유한회사</p>
+                        <p>전화번호: 00-308-321-0058</p>
+                        <p>대표: 레지널드 숀 톰프슨</p>
+                        <p>이메일 주소: korea@netflix.com</p>
+                        <p>주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층</p>
+                        <p>클라우드 호스팅: Amazon Web Services Inc.</p>
+                        <a href="#" title="공정거래위원회 사이트로 이동">공정거래위원회 웹사이트 링크
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+            <!-- end footer -->
+            <script src="src/script.js"></script>
+        </body>
+    </html>
