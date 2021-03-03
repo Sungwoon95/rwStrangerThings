@@ -76,6 +76,10 @@ p {
   clear: both;
 }
 
+.iframe {
+  border: none;
+}
+
 header {
   width: 100%;
   position: fixed;
